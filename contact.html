@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link id="icon" rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+		<title>Contact|ARJUN</title>
+	</head>
+	<body>
+<!--------------------------sidenavbar------------------------------>
+		<div id="sidenav">
+			<span id="closebtn" onclick=closeSideNav()>X</span>
+			<a href="index.html">Home</a>
+			<a href="personal info.html">Personal info</a>
+			<a href="education.html">Education</a>
+			<a href="skills.html">Skills</a>
+			<a href="contact.html">Contact me</a>
+		</div>
+		<span id="hamburger" onclick=openSideNav()>&#9776</span>
+
+<!--------------------------------form------------------------------->
+		<div id="content">
+			<form method="" action="" onsubmit=return submitform() id="form">
+				<img src=images/contactpic.jpg>
+				<input type="text" id="name" placeholder="your Name" required="required"><br>
+				<input id="email" type="email" placeholder="your Email-Id" required="required"><br>
+				<input id="msg" cols="50" rows="8" placeholder="your Message" required="required"><br>
+				<button id="submit" onclick=>send</button>
+			</form>
+		</div>	
+<!------------------------------JS---------------------------------->
+		<script type="text/javascript" src="JS/contact.js"></script>
+	</body>
+</html>

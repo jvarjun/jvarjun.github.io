@@ -1,0 +1,74 @@
+body{
+	background-image:url("../images/bg.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover; 
+}
+/*----------------------------sidenavbar--------------------------------*/
+#hamburger{
+	font-size:40px;
+	color:gray;
+	font-family:arial black;  
+	padding-left:5px; 
+	padding-right:5px; 
+}
+#hamburger:hover{
+	color:black;
+	font-size:40px;
+	cursor:pointer;  
+}
+#closebtn{
+	color:gray;
+	font-family:arial black; 
+	font-size:30px;
+	top:0px;
+	right:0px;
+	display:block;
+	margin-left:270px;
+	margin-top:10px;
+}
+#closebtn:hover{
+	color:white;
+	font-size:30px;
+	cursor:pointer;
+}
+a{
+	text-decoration:none;
+	font-size:25px; 
+	font-family:impact;
+	text-align:center;   
+	display:block;
+	color:gray;
+	margin-top:50px; 
+}
+a:hover{
+	color:white;
+	font-size:35px;
+}
+#sidenav{
+	background-color:black;
+	display:none;
+	position:fixed;
+	height:100%;
+	width:20%;
+}
+/*----------------------------content---------------------------------*/
+#content{
+	border:1px solid gray;
+	width:35%;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	color:white;
+	font-family:monospace; 
+}
+h1{
+	text-align:center;
+	text-decoration:underline;
+}
+.inst{
+	background-color:white;
+	color:black;
+	border-radius:10px;
+	padding:1px;
+}

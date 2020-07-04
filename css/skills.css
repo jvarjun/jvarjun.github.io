@@ -1,0 +1,195 @@
+body{
+	background-image:url("../images/bg.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover; 
+}
+/*----------------------------sidenavbar--------------------------------*/
+#hamburger{
+	font-size:40px;
+	color:gray;
+	font-family:arial black;  
+	padding-left:5px; 
+	padding-right:5px; 
+}
+#hamburger:hover{
+	color:black;
+	font-size:40px;
+	cursor:pointer;  
+}
+#closebtn{
+	color:gray;
+	font-family:arial black; 
+	font-size:40px;
+	top:0px;
+	right:0px;
+	display:block;
+	margin-left:270px;
+	margin-top:10px;
+}
+#closebtn:hover{
+	color:white;
+	cursor:pointer;
+	font-size:40px;
+}
+a{
+	text-decoration:none;
+	font-size:30px; 
+	font-family:impact;
+	text-align:center;   
+	display:block;
+	color:gray;
+	margin-top:50px; 
+}
+a:hover{
+	color:white;
+	font-size:35px; 
+}
+#sidenav{ 
+	background-color:black;
+	display:none;
+	position:fixed;
+	height:100%;
+	width:20%;
+}
+/*--------------------------------contnent-----------------------------*/
+#content{
+	display:flex;
+	padding:10px;
+	margin:5px;
+	margin-top:5%;
+}
+h3{
+	text-align:center;
+	text-decoration:underline;  
+}
+
+/*---------------------left-----------------------*/
+#left{
+	border:1px solid black;
+	padding:5px;
+	height:100%;
+	width:40%;
+	margin-left:10%;
+	margin-right:20px;
+	background-color:gray;
+	color:white;
+}
+#left:hover{
+	background-color:black; 
+}
+#clang{
+	background-color:white;
+	border:1px solid gray;
+	max-width:85%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#python{
+	background-color:white;
+	border:1px solid gray;
+	max-width:75%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#js{
+	background-color:white;
+	border:1px solid gray;
+	max-width:60%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#htcs{
+	background-color:white;
+	border:1px solid gray;
+	max-width:70%;
+	color:black;
+	text-align:center;
+	font-family:arial black;
+	padding:5px;
+	font-size:20px;
+}
+#paint{
+	background-color:white;
+	border:1px solid gray;
+	max-width:90%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+
+/*----------------------right-----------------*/
+
+#right{
+	border:1px solid black;
+	padding:5px;
+	height:100%;
+	width:40%;
+	margin-right:20px;
+	margin-right:10%;
+	background-color:gray;
+	color:white;
+}
+#right:hover{
+	background-color:black; 
+}
+#time{
+	background-color:white;
+	border:1px solid gray;
+	max-width:100%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#create{
+	background-color:white;
+	border:1px solid gray;
+	max-width:90%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#team{
+	background-color:white;
+	border:1px solid gray;
+	max-width:85%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
+#comm{
+	background-color:white;
+	border:1px solid gray;
+	max-width:70%;
+	color:black;
+	text-align:center;
+	font-family:arial black;
+	padding:5px;
+	font-size:20px;
+}
+#prob{
+	background-color:white;
+	border:1px solid gray;
+	max-width:75%;
+	color:black;
+	text-align:center;
+	padding:5px;
+	font-family:arial black;
+	font-size:20px;
+}
